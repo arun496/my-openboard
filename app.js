@@ -4,6 +4,7 @@ const app = express();
 
 app.use(express.static("public"));
 
+
 let port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
     console.log("Listening to port 3000");
